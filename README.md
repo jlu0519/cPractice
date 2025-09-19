@@ -1,15 +1,28 @@
-## C Practice Project
+# C Practice Project
 
 ## Intro
 
-- This repository is a compiliation of c programs that I am writing while I learn the fundamentals
-  of the C programming lanuguage.
+This repository is a compilation of C programs I'm writing as I learn the fundamentals of the **C programming language**.
 
-- I am following through a Udemy tutorial about C however, there are also multiple files that are just
-  programs concepts I have combined.
+- I'm currently following a **Udemy course on C** as my primary resource.
+- In addition to course exercises, I've also created original programs to experiment with combining multiple concepts.
+
+---
+
+### Focus Areas So Far
+
+- Control structures
+- Functions
+- Loops
+- User input/output
+- Basic logic and problem-solving
+- Modular code structure
+
+---
 
 
 
+```text
    $$$$$\ $$\      $$\   $$\  $$$$$$\  $$$$$$$\    $$\   $$$$$$\        
    \__$$ |$$ |     $$ |  $$ |$$$ __$$\ $$  ____| $$$$ | $$  __$$\       
       $$ |$$ |     $$ |  $$ |$$$$\ $$ |$$ |      \_$$ | $$ /  $$ |      
@@ -17,4 +30,4 @@
 $$\   $$ |$$ |     $$ |  $$ |$$ \$$$$ |\_____$$\   $$ |  \____$$ |      
 $$ |  $$ |$$ |     $$ |  $$ |$$ |\$$$ |$$\   $$ |  $$ | $$\   $$ |      
 \$$$$$$  |$$$$$$$$\\$$$$$$  |\$$$$$$  /\$$$$$$  |$$$$$$\\$$$$$$  |      
- \______/ \________|\______/  \______/  \______/ \______|\______/     
+ \______/ \________|\______/  \______/  \______/ \______|\______/      
