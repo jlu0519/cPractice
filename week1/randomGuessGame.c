@@ -14,7 +14,7 @@ void playGame(){
     //Generates random seed for the rand function
     srand(time(NULL));
 
-    int answer = (rand() % 20) + 1;
+    int answer = (rand() % 21);
     int userAnswer = 0;
     int i;
 
