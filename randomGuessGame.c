@@ -2,7 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(){
+void playGame(){
+
+    //Clear the Screen for clean game play
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+
     //Generates random seed for the rand function
     srand(time(NULL));
 
@@ -40,8 +48,25 @@ int main(){
                 printf("Sorry, %d is wrong. My number is less than that.\n\n", userAnswer);
                 }
     }
-    
-
-    return 0;
 }
-         
+
+int main(){
+    char playAgain = 'a';
+
+    do{
+        playGame();
+        printf("Do you want to play again? Y/N: ");
+        scanf(" %c",&playAgain);
+        printf("\n\n");
+    }while(playAgain == 'y' || playAgain == 'Y');
+
+    // Clears Screen Once game is finished
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+
+    
+  return 0;
+}
