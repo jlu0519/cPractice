@@ -28,7 +28,7 @@ void playGame(){
     // Loop for the 5 tries to git Answer 
     for (i = 5; i > 0; i--){
         
-            printf("You have %d tries left.\n", i);
+            printf("You have %d tr%s left.\n", i, i == 1 ? "y" : "ies");
             printf("Enter a Guess: ");
             scanf("%d", &userAnswer);
          
