@@ -76,7 +76,7 @@ void printBoard(char board[3][3]) {
 
 int checkWin(char board[3][3]) {
     char *cursor;
-    int gameOver;
+    int gameOver = 0;
 
     // Check rows
     for (int i = 0; i < 3; i++) {
