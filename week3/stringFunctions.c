@@ -3,30 +3,36 @@
 #include<stdbool.h>
 
 // Functions Intialized
-void strCat(string[50]);
+void strCat();
 
-int slength(name[50]); 
+int sLength(const char string[]); 
 
-bool strCompare(name[50]);
+bool strCompare();
 
 // Main program
 int main(){
-    const char name[] = "Luke Young";
-    const char middleName = "Timothy";
+    const char word1[] = "Luke";
+    const char word2[] = "Timothy";
+    const char word3[] = "Young";
 
-
+    printf("%d\t%d\t%d\t\n",sLength(word1),sLength(word2),sLength(word3));
 }
 
 // Function defintions
-void strCat(string[50]) {
+void strCat(){
 
 }
 
-int sLength(name[50]) {
+int sLength(const char string[]) {
+    int count = 0;
+    
+    while(string[count] != '\0')
+        ++count;
 
+    return count;
 }
 
-bool strCompare(name[50]) {
+bool strCompare() {
 
 }
 
