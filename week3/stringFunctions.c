@@ -3,7 +3,7 @@
 #include<stdbool.h>
 
 // Functions Intialized
-void strCat();
+void strCat(const char string[]);
 
 int sLength(const char string[]); 
 
