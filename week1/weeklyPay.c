@@ -47,11 +47,10 @@ int main(){
 
 	// Tax Brackets
 	
-
 	if (grossPay <= 300.00){
 		taxesOwed = grossPay * taxRate[0];
 		netPay = grossPay - taxesOwed;
-	}else if(grossPay <=450){
+	}else if(grossPay > 300.00 && grossPay <=450){
 		taxesOwed = (300 * taxRate[0]) + ((grossPay - 300) * taxRate[1]);
 		netPay = grossPay - taxesOwed;
 	}else{
